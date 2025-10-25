@@ -21,3 +21,8 @@ jobs:
 
     - name: Validate Build
       run: echo "✅ Build Successful!"
+
+    - name: Deploy to Render (Auto)
+      if: success()
+      run: curl "$RENDER_DEPLOY_HOOK"
+
