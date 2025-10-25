@@ -14,7 +14,7 @@ app.post('/greeting', (req, res) => {
 });
  
 app.get('/test', (req, res) => {
-  res.send('This is a test endpoint.');
+  res.send('This is a test endpoint...):');
 });
 
 app.listen(port, () => {
