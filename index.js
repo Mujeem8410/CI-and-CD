@@ -14,7 +14,7 @@ app.post('/greeting', (req, res) => {
 });
  
 app.get('/test', (req, res) => {
-  res.send('This is a test endpoint...):');
+  res.send('This is a test endpoint and make sure auto deploy by the CI and CD which the concept of DevOps...:)');
 });
 
 app.listen(port, () => {
